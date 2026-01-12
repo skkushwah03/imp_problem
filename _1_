@@ -1,0 +1,11 @@
+//Question #1: Sweet Seventeen 
+//Given a maximumoffour digits tothebase 17(10 -> A, 11 -> B, 12 -> C, 16 -> G) as
+//input, output its decimal value. 
+//Input: 
+//23GF 
+//Solution	and	output: 
+Python : 
+num=str(input())
+print(int(num,17)) 
+OUTPUT 
+10980
